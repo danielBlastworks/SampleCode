@@ -15,7 +15,6 @@ public class ReelRocketController : MonoBehaviour {
 	public float MovementDelay = 1.0f;
 	private bool hitBlocker = false;
 
-
 	private void OnTriggerEnter (Collider other) 
 	{
 		Cell cell = null;
@@ -36,7 +35,6 @@ public class ReelRocketController : MonoBehaviour {
 		}
 	}
 	
-	// Update is called once per frame
 	void FixedUpdate () 
 	{
 		if(IsMoving)
