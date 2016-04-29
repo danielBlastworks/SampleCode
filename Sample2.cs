@@ -4,6 +4,12 @@ using com.gamehouse.slingo.events;
 using com.gamehouse.slingo.states;
 using com.gamehouse.slingo.engine.game;
 
+/*
+* INSTRUCTIONS
+* Please give the following code a read over and describe what it does.
+*/
+
+
 public class ReelRocketController : MonoBehaviour {
 
 	public ReelItem parentReel;
