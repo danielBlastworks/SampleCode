@@ -1,0 +1,14 @@
+using UnityEngine;
+using System.Collections;
+
+
+/*
+* INSTRUCTIONS
+* Please describe what this script does and if there are any issues with it.
+*/ 
+
+public class TEST : MonoBehaviour {
+   void Start () {
+       transform.position.x = 10;
+   }
+}
